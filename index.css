@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sacramento', cursive;
+    height: 150vh;
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(93, 184, 191, 0.75), rgba(42, 181, 172, 0.8)), url(lap.jpg); 
+    padding-bottom: 60px;
+}
+.contenedor-textos{
+    width: 50%;
+    color: #64C2C2;
+}
+h1{
+    font-size: 85px;
+    margin: 30px;
+    text-shadow: 1px 3px 3px black;
+    font-weight: 400;
+}
+img{
+    width: 40%;
+    display: inline-block;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
